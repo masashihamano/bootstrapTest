@@ -2,16 +2,27 @@
 <html>
   <head>
     <title>BootstrapTest</title>
+    <meta name="description" content="かわいい猫のフォトギャラリーです">
+    <meta name="keywords" content="猫,子猫,Cats,cat,ねこ,ネコ,フォトギャラリー" >
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel ="stylesheet" href="css/gallery.css">
+
+    <style>
+      .orange {
+        background-color: orange;
+        border: black 1px solid;
+      }
+    </style>
   </head>
 
   <body>
 
     <%= yield %>
-    
+
   </body>
 </html>

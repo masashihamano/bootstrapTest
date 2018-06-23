@@ -22,6 +22,8 @@ gem 'pry-stack_explorer'
 gem 'bootstrap-sass'
 # jqueryの導入(bootstrapに必要)
 gem 'jquery-rails'
+# font-awesomeの導入
+gem 'font-awesome-rails'
 
 
 gem 'bootsnap', '>= 1.1.0', require: false
